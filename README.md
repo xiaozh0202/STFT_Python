@@ -8,7 +8,9 @@ Use"pip install -r requirements.txt" to install the dependent libraries.
 Use such a command:
 "python workFlow.py -wp test.wav -sp test.png -l 8192 -o 7168"
 
-Parameter description:
+Parameter description:  
+
+
 English：  
 "-wp", "--wavepath", "The path to the audio file"，Required parameters；  
 "-sp", "--savepath", "The path the image needs to be saved"，Required parameters；  
@@ -18,6 +20,8 @@ English：
 "-o", "--overlap", "The overlap length of STFT"，Required parameters,length-overlap=step；  
 "-w", "--window", "The window function of STFT",Optional parameters，default="hamm"；  
 "-n", "--normali", "Data normalization", Optional parameters，default=True.  
+
+
 中文版：  
 "-wp", "--wavepath", "音频文件路径"，必填参数；  
 "-sp", "--savepath", "图片保存的路径"，必填参数；  
