@@ -6,7 +6,7 @@ Use"pip install -r requirements.txt" to install the dependent libraries.
 
 
 Use such a command:
-"python workFlow.py -wp test.wav -sp test.png -l 8192 -o 7168"
+"python pystft.py -wp test.wav -sp test.png -l 8192 -o 7168"
 
 Parameter description:  
 
