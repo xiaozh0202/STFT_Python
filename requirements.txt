@@ -1,0 +1,4 @@
+pydub==0.24.1
+scipy==0.18.1
+numpy==1.11.3
+matplotlib==2.0.0
